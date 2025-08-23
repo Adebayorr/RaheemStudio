@@ -1,0 +1,105 @@
+:root {
+    --pc: #1E0044;
+    --accent: #0B001A;
+    --fontS: 12px;
+    --textC: #E9DEFF;
+    --padding: 40px;
+    --font: Montserrat, sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+body {
+    background-color: var(--accent);
+    padding: 20px;
+}
+
+
+header {
+    padding: 20px var(--padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--pc);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.in-header-wrapper {
+    width: 20%;
+}
+
+#custom-nav {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.socials a {
+    text-transform: uppercase;
+    color: var(--textC);
+    text-decoration: none;
+    /* margin: 15px; */
+}
+
+.talk {
+    background-color: transparent;
+    border: 2px solid transparent;
+    background: linear-gradient(var(--pc), var(--pc)) padding-box, linear-gradient(to right, #8338EC, #B923FF) border-box;
+    border-image-slice: 1;
+    border-radius: 45px;
+    text-transform: uppercase;
+    color: var(--textC);
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 0 19px 9px #A22DF710, 0 0 46.85px 0 #A22DF710, 0 0 25.48px 0 #A22DF710, 0 0 13px 0 #A22DF710, 0 0 6.25px 0 #A22DF710, 0 0 3.15px 0 #A22DF710;
+}
+
+.nav-btn-wrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.hero {
+    background-color: var(--pc);
+    padding: var(--padding);
+    padding-top: 100px;
+    border-radius:  0px 0px 20px 20px;
+    min-height: 80vh;
+    
+}
+.hero-title {
+    font-size: 65px;
+    width: 55%;
+    color: var(--textC);
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.gradient-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background: linear-gradient(to right, #8338EC, #B923FF);
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-subtitle {
+    font-weight: 18px;
+    width: 35%;
+    color: var(--textC);
+}
