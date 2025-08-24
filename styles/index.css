@@ -146,3 +146,52 @@ header {
     cursor: pointer;
     font-size: 0.8rem;
 }
+
+/* .portfolios-wrapper {
+    padding: 30px;
+} */
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+.portfolio-tab {
+    background-color: transparent;
+    border: 2px solid transparent;
+    background: linear-gradient(var(--pc), var(--pc)) padding-box, linear-gradient(to right, #8338EC, #B923FF) border-box;
+    border-image-slice: 1;
+    border-radius: 45px;
+    text-transform: uppercase;
+    color: var(--textC);
+    padding: 8px 12px;
+    transition: background-color 5s ease-in-out, box-shadow 5s ease-in-out;
+    cursor: pointer; 
+    border: none;
+
+}
+
+.portfolio-tab:hover {
+    background-color: linear-gradient(to right, #8338EC, #B923FF);
+    box-shadow: 0 0 19px 9px #A22DF710, 0 0 46.85px 0 #A22DF710, 0 0 25.48px 0 #A22DF710, 0 0 13px 0 #A22DF710, 0 0 6.25px 0 #A22DF710, 0 0 3.15px 0 #A22DF710;
+}
+
+.portfolios {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.portfolio {
+    height: 400px;
+    border-radius: 20px;
+    background-color: #9C2EF5;
+    transition: all 0.2 ease-in-out;
+}
+
+.portfolio:hover {
+    transition: 0.5s ease-in-out;
+    transform: rotateY(180deg);
+}
