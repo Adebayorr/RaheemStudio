@@ -103,3 +103,46 @@ header {
     width: 35%;
     color: var(--textC);
 }
+
+.services {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.service {
+    width: 48%;
+    color: var(--textC);
+    padding: 30px;
+    background: linear-gradient(to right,
+    #8338EC, #9C2EF5);
+    font-size: 0.9rem;
+    border-radius: 20px;
+}
+
+.service h2 {
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.service p {
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.middle-service {
+     background: linear-gradient(25deg,
+    #9E2DF6, #B923FF);
+}
+
+.stacks {
+    text-decoration: none;
+    border: 1px solid var(--textC);
+    border-radius: 45px;
+    text-transform: capitalize;
+    color: var(--textC);
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
